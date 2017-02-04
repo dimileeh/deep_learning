@@ -13489,7 +13489,7 @@ def hyperopt_train_test(params):
     
     return [val_loss, train_loss]
 
-space4knn = {
+space4nn = {
     &#39;epochs&#39;: hp.choice(&#39;epochs&#39;, np.arange(50, 1000, 25, dtype=int)),
     &#39;learning_rate&#39;: hp.loguniform(&#39;learning_rate&#39;, -6, -1),
     &#39;hidden_nodes&#39;: hp.choice(&#39;hidden_nodes&#39;, np.arange(3, 30, dtype=int))
@@ -13503,7 +13503,7 @@ def f(params):
     return {&#39;loss&#39;: val_loss, &#39;status&#39;: STATUS_OK}
 
 trials = Trials()
-best = fmin(f, space4knn, algo=tpe.suggest, max_evals=50, trials=trials)
+best = fmin(f, space4nn, algo=tpe.suggest, max_evals=50, trials=trials)
 print (&#39;best:&#39;)
 print (best)
 </pre></div>
