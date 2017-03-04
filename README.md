@@ -5,4 +5,4 @@ This repository contains projects that I've worked on during the Deep Learning N
 First neural network using pure Numpy. Bike sharing predictions.
 
 ## Project2
-Image classification using the CIFAR-10 dataset with a Convolutional Neural Network.
+Image classification from the CIFAR-10 dataset using a Convolutional Neural Network (CNN).
