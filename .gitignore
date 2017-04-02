@@ -2,3 +2,6 @@
 .ipynb_checkpoints
 */*.txt
 mnist
+
+*/__pycache__/
+project3/preprocess.p
