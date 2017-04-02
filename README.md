@@ -8,4 +8,4 @@ First neural network using pure Numpy. Bike sharing predictions.
 Image classification from the CIFAR-10 dataset using a Convolutional Neural Network (CNN).
 
 ## Project3
-TV scripts generations using Recurrent Neural Network - LSTM.
+TV scripts generation using Recurrent Neural Network - LSTM.
